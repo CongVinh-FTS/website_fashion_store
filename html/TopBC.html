@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TopBC.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cửa Hàng Thời Trang</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-system">
+                <div class="header-system-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="header-item1">
+                    <a href=""><span><i class="fa-solid fa-user"></i></span>Tài khoản</a>
+                    <a href=""><span><i class="fa-solid fa-shop"></i></span>Sản phẩm</a>
+                    <a href=""><span><i class="fa-solid fa-medal"></i></span>Hệ thống cửa hàng</a>
+                </div>
+            </div>
+            <div class="header-center">
+                <div class="logo">
+                    <img src="image/logo1.png" alt="">
+                </div>
+                <div class="search">
+                    <select class="select">
+                        <option value="1">ALL</option>
+                        <option value="2">Ba lô - Túi sách</option>
+                        <option value="3">Trang sức</option>
+                        <option value="4">Đồng hồ</option>
+                        <option value="5">Giày dép</option>
+                        <option value="6">Kính mắt thời trang</option>
+                        <option value="7">Mỹ phẩm</option>
+                    </select>
+                    <input type="text" placeholder="Bạn tìm gì...">
+                    <button class="search-button"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                </div>
+                <div class="item2">
+                    <div class="phone1">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="text-phone">
+                            <h1>Gọi đặt hàng</h1>
+                            <span>0888 266 233</span>
+                        </div>
+                    </div>
+                    <div class="phone1">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="text-phone">
+                            <h1>Gọi tư vấn</h1>
+                            <span>0888 266 233</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu">
+                <div class="menu-left">
+                    <div class="menu-left-content">
+                        <i class="fa-solid fa-bars"></i>
+                        <h3>Trang Chủ</h3>
+                    </div>
+                </div>
+                <div class="menu-right">
+                    <div class="menu-right-bars">
+                        <ul>
+                            <li><a href="web.html">Giới thiệu</a></li>
+                            <li><a href="Tintuc.html">Tin tức</a></li>
+                            <li id="menu-right-menucon"><a href="">Sản phẩm<i class="fa-solid fa-chevron-left"></i></a>
+                                <div class="menu-con">
+                                    <ul>
+                                        <li><a href="">Top bán chạy</a></li>
+                                        <li><a href="Nam.html">Thời trang nam</a></li>
+                                        <li><a href="Nu.html">Thời trang nữ</a></li>
+                                        <li><a href="Phukien.html">Phụ kiện thời trang</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="Chinhsach.html">Chính sách điều khoản</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-right-content">
+                        <span><i class="fa-solid fa-user"></i></span>
+                        <span><i class="fa-solid fa-bag-shopping"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="shop-website">
+        <div class="shop-website-item1">
+            <div class="shop-website-item1-content">
+                <img src="image/sale.png" alt="">
+                <h1>Top bán chạy nhất</h1>
+            </div>
+            <div class="shop-website-item1-spitems">
+                <div class="shop-website-item1-spitems-sp1" onmouseover="hoverSp1(true)" onmouseout="hoverSp1(false)">
+                    <img src="image/item1-sp1.jpg" alt="" id="image1">
+                    <div class="spitems-sp1-content">
+                        <a href=""><p>Giày cao cổ nữ phối da AQUA ABEN</p></a>
+                        <span id="monny1"><del>400.000</del><sup><u>đ</u></sup></span>
+                        <span id="monny2">310.000</span><sup>đ</sup>
+                    </div>
+                    <button id="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="shop-website-item1-spitems-sp1" onmouseover="hoverSp2(true)" onmouseout="hoverSp2(false)">
+                    <img src="image/item1-sp2.jpg" alt="" id="image2">
+                    <div class="spitems-sp1-content">
+                        <a href=""><p>Vòng chỉ tay ngũ sắc SID66482</p></a>
+                        <span id="monny1"><del>300.000</del><sup><u>đ</u></sup></span>
+                        <span id="monny2">199.000</span><sup>đ</sup>
+                    </div>
+                    <button id="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="shop-website-item1-spitems-sp1" onmouseover="hoverSp3(true)" onmouseout="hoverSp3(false)">
+                    <img src="image/item1-sp3.jpg" alt="" id="image3">
+                    <div class="spitems-sp1-content">
+                        <a href=""><p>Đồng hồ điện tử nam nữ Skmei đa sắc SID46665</p></a>
+                        <span id="monny1"><del>400.000</del><sup><u>đ</u></sup></span>
+                        <span id="monny2">350.000</span><sup>đ</sup>
+                    </div>
+                    <button id="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="shop-website-item1-spitems-sp1" onmouseover="hoverSp4(true)" onmouseout="hoverSp4(false)">
+                    <img src="image/item1-sp4.jpg" alt="" id="image4">
+                    <div class="spitems-sp1-content">
+                        <a href=""><p>Vòng chỉ tay ngũ sắc SID66482 chất lượng cao</p></a>
+                        <span id="monny1"><del>350.000</del><sup><u>đ</u></sup></span>
+                        <span id="monny2">299.000</span><sup>đ</sup>
+                    </div>
+                    <button id="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="shop-website-item1-spitems-sp1" onmouseover="hoverSp5(true)" onmouseout="hoverSp5(false)">
+                    <img src="image/item1-sp5.jpg" alt="" id="image5">
+                    <div class="spitems-sp1-content">
+                        <a href=""><p>Giày sandal gót vuông SULILY SGV01</p></a>
+                        <span id="monny1"><del>450.000</del><sup><u>đ</u></sup></span>
+                        <span id="monny2">370.000</span><sup>đ</sup>
+                    </div>
+                    <button id="button">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="shop-website-item1-spitems-sp1" onmouseover="hoverSp6(true)" onmouseout="hoverSp6(false)">
+                    <img src="image/item1-sp6.jpg" alt="" id="image6">
+                    <div class="spitems-sp1-content">
+                        <a href=""><p>Giày cao cổ nam phối da AQUA M120 SID60452</p></a>
+                        <span id="monny1"><del>400.000</del><sup><u>đ</u></sup></span>
+                        <span id="monny2">350.000</span><sup>đ</sup>
+                    </div>
+                    <button id="button">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+        <div class="shop-website-item2s">
+            <div class="shop-website-item2">
+                <div class="shop-website-item2-img">
+                    <img src="image/anh1.jpg" alt="">
+                    <img src="image/anh2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="shop-website-item3s">
+            <div class="shop-website-item3-container">
+                
+                    <div class="shop-website-item3-right">
+                        <div class="shop-website-item3-right-top">
+                            <p>Quần nam</p>
+                            <p>Phụ kiện nam</p>
+                            <p>Áo nam</p>
+                            <p>Giày dép nam</p>
+                        </div>
+                        <div class="shop-website-item3-right-products">
+                            <div class="item3-right-product1">
+                                <div class="imageproduct">
+                                    <img src="image/item1-sp1.jpg" alt="">
+                                </div>
+                                <button id="buttonitem3">Thêm vào giỏ hàng</button>
+                                <h3>Giày cao cổ nữ phối da AQUA ABEN</h3>
+                                <div class="item3-right-product1-price">
+                                    <span id="price-item1"><del>400.000</del><sup><u>đ</u></sup></span>
+                                    <span id="price-item2">310.000</span><sup><u>đ</u></sup>
+                                </div>
+                                
+                            </div>
+                            <div class="item3-right-product1">
+                                <div class="imageproduct">
+                                    <img src="image/item1-sp2.jpg" alt="">
+                                </div>
+                                <button id="buttonitem3">Thêm vào giỏ hàng</button>
+                                <h3>Vòng chỉ tay ngũ sắc SID66482</h3>
+                                <div class="item3-right-product1-price">
+                                    <span id="price-item1"><del>300.000</del><sup><u>đ</u></sup></span>
+                                    <span id="price-item2">199.000</span><sup><u>đ</u></sup>
+                                </div>
+                                
+                            </div>
+                            <div class="item3-right-product1">
+                                <div class="imageproduct">
+                                    <img src="image/item1-sp3.jpg" alt="">
+                                </div>
+                                <button id="buttonitem3">Thêm vào giỏ hàng</button>
+                                <h3>Đồng hồ điện tử nam nữ Skmei đa sắc SID46665</h3>
+                                <div class="item3-right-product1-price">
+                                    <span id="price-item1"><del>400.000</del><sup><u>đ</u></sup></span>
+                                    <span id="price-item2">350.000</span><sup><u>đ</u></sup>
+                                </div>
+                            </div>
+                            <div class="item3-right-product1">
+                                <div class="imageproduct">
+                                    <img src="image/item1-sp4.jpg" alt="">
+                                </div>
+                                <button id="buttonitem3">Thêm vào giỏ hàng</button>
+                                <h3>Vòng chỉ tay ngũ sắc SID66482 chất lượng cao</h3>
+                                <div class="item3-right-product1-price">
+                                    <span id="price-item1"><del>350.000</del><sup><u>đ</u></sup></span>
+                                    <span id="price-item2">299.000</span><sup><u>đ</u></sup>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-website-item3-right-products">
+                            <div class="item3-right-product1">
+                                <div class="imageproduct">
+                                    <img src="image/item1-sp5.jpg" alt="">
+                                </div>
+                                <button id="buttonitem3">Thêm vào giỏ hàng</button>
+                                <h3>Giày sandal gót vuông SULILY SGV01</h3>
+                                <div class="item3-right-product1-price">
+                                    <span id="price-item1"><del>450.000</del><sup><u>đ</u></sup></span>
+                                    <span id="price-item2">370.000</span><sup><u>đ</u></sup>
+                                </div>
+                            </div>
+                            <div class="item3-right-product1">
+                                <div class="imageproduct">
+                                    <img src="image/item1-sp6.jpg" alt="">
+                                </div>
+                                <button id="buttonitem3">Thêm vào giỏ hàng</button>
+                                <h3>Giày cao cổ nam phối da AQUA M120 SID60452</h3>
+                                <div class="item3-right-product1-price">
+                                    <span id="price-item1"><del>400.000</del><sup><u>đ</u></sup></span>
+                                    <span id="price-item2">350.000</span><sup><u>đ</u></sup>
+                                </div>
+                            </div>
+                            <div class="item3-right-product1">
+                                <div class="imageproduct">
+                                    <img src="image/item3-sp6.jpg" alt="">
+                                </div>
+                                <button id="buttonitem3">Thêm vào giỏ hàng</button>
+                                <h3>Combo túi sách + túi đeo chéo phối hạt SID61600</h3>
+                                <div class="item3-right-product1-price">
+                                    <span id="price-item1"><del>800.000</del><sup><u>đ</u></sup></span>
+                                    <span id="price-item2">650.000</span><sup><u>đ</u></sup>
+                                </div>
+                            </div>
+                            <div class="item3-right-product1">
+                                <div class="imageproduct">
+                                    <img src="image/item3-sp7.jpg" alt="">
+                                </div>
+                                <button id="buttonitem3">Thêm vào giỏ hàng</button>
+                                <h3>Balo Laptop nam nữ cỡ lớn SID59040</h3>
+                                <div class="item3-right-product1-price">
+                                    <span id="price-item1"><del>600.000</del><sup><u>đ</u></sup></span>
+                                    <span id="price-item2">400.000</span><sup><u>đ</u></sup>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="box-cart">
+        <div class="cart">
+            <div class="cart-title">
+                <h1>Giỏ hàng</h1>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <hr>
+            <table>
+                <thead>
+                    <tr class="tr">
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Chọn</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+            <hr>
+            <div style="text-align: right; font-weight: bold; margin: 10px 0px; font-size: 18px;" class="price-total">
+                <p>Tổng tiền: <span>0</span><sup>đ</sup></p>
+            </div>
+            <hr>
+            <div class="pay">
+                <button>Thanh toán</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-website">
+            <div class="footer-website-container">
+                <h1>&#128525 ivy moda Store</h1>
+                <h1>Cùng sáng tạo - Cùng phát triển</h1>
+            </div>
+        </div>
+    </footer>
+    <script src="web.js"></script>
+</body>
+</html>
